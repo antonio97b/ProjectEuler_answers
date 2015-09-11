@@ -44,3 +44,7 @@ x + y = z
                     8 + 13 = 21
                         13 + 21 = 34
                              21 + 34 = 55
+// post script notes:
+// I realize I could have done with just the "while" loop. the other loop is redundant.
+//    Though, I will keep this loop code as-is to show what was my first solution.
+//    However, if I were to refactor it, I would omit the 'for' loop all together.
