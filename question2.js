@@ -48,3 +48,8 @@ x + y = z
 // I realize I could have done with just the "while" loop. the other loop is redundant.
 //    Though, I will keep this loop code as-is to show what was my first solution.
 //    However, if I were to refactor it, I would omit the 'for' loop all together.
+// If i were to reapproach this question I would take it one step at a time. I
+//    attempeted this problem in one go (checking even entries etc.). I should
+//    have just console.logged until I made the Fibonacci sequence work then added
+//    the final total check at the end. It would have been easier to focus on one
+//    thing. 
