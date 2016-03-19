@@ -16,7 +16,7 @@ var total = 0;                          // This is where we store our total of e
 
 
 
-for (var i = 0; i < 1000000; i++) {     // 1000000 is just an arbitrary number to make sure we loop enough.
+//for (var i = 0; i < 1000000; i++) {     // 1000000 is just an arbitrary number to make sure we loop enough.
   while (total < 4000000) {             // this loop wil break continue until our total variable reaches four million
     z = y + x;                          // adds our two sequence numbers. Again we start at one
     if (x % 2 === 0) {                  // if x is even...
@@ -26,10 +26,11 @@ for (var i = 0; i < 1000000; i++) {     // 1000000 is just an arbitrary number t
     y = x - y;                          // y is the difference of our (newly defined..) x minus itself
     z = 0;                              // reset our temp sum to zero for next calculation
   };
-};
+  console.log(total);
+//};
 console.timeEnd("loop");          // Return timer
 //Answer: 4613732
-//Execute Time: loop: 836.177ms
+//Execute Time: loop: 836.177ms (.096ms without the 'for loop')
 
 // Another way to solve this is knowing that every third digit is an even number. I inadvertently stumbled upon that pattern (did not see it myself)
 // so i forced myself to find a way to check if it is even rather than go with the "add every third" pattern.
