@@ -36,17 +36,17 @@ console.timeEnd("loop");          // Return timer
 // so i forced myself to find a way to check if it is even rather than go with the "add every third" pattern.
 
 // Written out a brief Fibonacci sequence to find a pattern
-x + y = z
-
-    x + y = z
-1 + 1 = 2   x + y = z
-    1 + 2 = 3
-        2 + 3 = 5   x +  y = z
-            3 + 5 = 8
-                5 + 8 = 13    x +  y = z
-                    8 + 13 = 21
-                        13 + 21 = 34
-                             21 + 34 = 55
+// x + y = z
+//
+//     x + y = z
+// 1 + 1 = 2   x + y = z
+//     1 + 2 = 3
+//         2 + 3 = 5   x +  y = z
+//             3 + 5 = 8
+//                 5 + 8 = 13    x +  y = z
+//                     8 + 13 = 21
+//                         13 + 21 = 34
+//                              21 + 34 = 55
 // post script notes:
 // I realize I could have done with just the "while" loop. the other loop is redundant.
 //    Though, I will keep this loop code as-is to show what was my first solution.
