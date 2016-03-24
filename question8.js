@@ -39,7 +39,6 @@ for (var i = 0; i < bigNumArray.length-13; i++) {
   for (var j = 0; j < chunkThirteen.length; j++) {
     count = count * chunkThirteen[j];
   }
-  debugger;
   if (count >= highest) {
     highest = count;
     collection = chunkThirteen.join("");
