@@ -2,10 +2,10 @@
 //
 // Find the largest palindrome made from the product of two 3-digit numbers.
 
-function palendromeNumber(digitRange) {
+function palindromeNumber(digitRange) {
   var x = 0;
   var z = 0;
-  var palendromicNumbers = [];
+  var palindromeNumbers = [];
   var zAnswers = [];
   var highValue = 0;
   var base = [1];
@@ -21,13 +21,12 @@ function palendromeNumber(digitRange) {
   var y = base
   while (z < ceiling * ceiling) {
     for ( var i = base; i <= ceiling; i++ ) {
-      x = i;
-      z = x * y;
+      z = i * y;
 
       var numStr = z.toString();
       var revNumStr = numStr.split("").reverse().join("");
       if ( numStr === revNumStr ) {
-        palendromicNumbers.push({ x:x, y:base, z:z });
+        palindromeNumbers.push({ x:x, y:base, z:z });
         zAnswers.push(z);
       }
     }
